@@ -1,3 +1,9 @@
+// Why Use Axios Over Fetch?
+// ✅ Automatic JSON parsing (no need for response.json())
+// ✅ Better error handling
+// ✅ Supports request cancellation & timeout
+// ✅ Supports interceptors for global request handling
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 

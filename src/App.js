@@ -1,5 +1,6 @@
 import "./App.css";
-import AxiosExample from "./Pages/DataFetching/AxiosFetching";
+import AsyncAwaitExample from "./Pages/AsyncAwait";
+// import AxiosExample from "./Pages/DataFetching/AxiosFetching";
 // import FetchExample from "./Pages/DataFetching/DataFetching";
 // import Miscellaneous from "./Miscellaneous/Miscellaneous";
 // import Concurrent from "./Pages/Concurrent/Concurrent";
@@ -12,7 +13,8 @@ function App() {
       {/* <HigherOrder /> */}
       {/* <Concurrent/> */}
       {/* <FetchExample/> */}
-      <AxiosExample/>
+      {/* <AxiosExample/> */}
+      <AsyncAwaitExample />
     </div>
   );
 }
